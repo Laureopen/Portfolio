@@ -1,0 +1,174 @@
+/* Style du Header */
+.hero {
+    background: url('background.jpg') center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.hero-text h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.hero .overlay {
+    background: rgba(0, 0, 0, 0.6); /* Opacité légèrement augmentée */
+}
+
+
+.btn-primary {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Section */
+section {
+    padding: 60px 0;
+}
+
+/* Ajustement des images des projets */
+.card-img-top {
+    height: 180px; /* Hauteur fixe pour uniformiser les images */
+    object-fit: cover; /* Évite que l'image ne soit étirée */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Meilleur alignement des cartes */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Toutes les cartes auront la même hauteur */
+}
+
+/* Centrage du texte et du bouton */
+.card-body {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Taille adaptée du bouton */
+.card .btn {
+    max-width: 120px; /* Largeur limitée */
+    margin: 0 auto; /* Centrage */
+}
+
+/* Meilleure disposition sur mobile */
+@media (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col-md-4 {
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+.fade-in {
+
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Ajout d'un espace entre les cartes */
+.card {
+    margin-bottom: 30px; /* Espace entre les cartes */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+/* Ajout d'un espace entre les lignes */
+.row {
+    gap: 20px; /* Ajoute un espacement horizontal et vertical */
+    justify-content: center; /* Centre les éléments */
+}
+
+/* Ajustement des images des projets */
+.card-img-top {
+    height: 180px; /* Uniformise la taille des images */
+    object-fit: cover; /* Garde les proportions sans étirer */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Meilleur espacement pour la section des projets */
+#projets {
+    padding: 80px 0;
+    background-color: #f8f9fa; /* Fond gris clair pour mieux séparer */
+}
+
+/* Meilleur espacement du texte et du bouton */
+.card-body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Espacement entre les sections */
+section {
+    margin-bottom: 50px;
+}
+
+
+
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
