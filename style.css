@@ -1,21 +1,14 @@
 /* Style du Header */
 .hero {
-    background: url('background.jpg') center/cover no-repeat;
+    background: url('images/Bureau.png') center/cover no-repeat;
     height: 100vh;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+
 }
-
-
-
-
-
-
-
-
 
 .hero-text h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -72,22 +65,6 @@ section {
     margin: 0 auto; /* Centrage */
 }
 
-/* Meilleure disposition sur mobile */
-@media (max-width: 768px) {
-    .row {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .col-md-4 {
-        width: 100%;
-        max-width: 400px;
-        margin-bottom: 20px;
-    }
-}
-
-
-
 .fade-in {
 
     transform: translateY(30px);
@@ -141,30 +118,10 @@ section {
     margin-bottom: 50px;
 }
 
-
-
-
 .card:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Footer */
 footer {
